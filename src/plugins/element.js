@@ -1,0 +1,90 @@
+import Vue from 'vue'
+import {
+    Button,
+    Form,
+    FormItem,
+    Rate,
+    Table,
+    TableColumn,
+    Pagination,
+    Tag,
+    Menu,
+    MenuItem,
+    Tabs,
+    TabPane,
+    Dialog,
+    Tooltip,
+    Popover,
+    Carousel,
+    CarouselItem,
+    Input,
+    Upload,
+    Container,
+    Header,
+    Main,
+    Radio,
+    Select,
+    Option,
+    Message,
+    MessageBox,
+    Dropdown,
+    DropdownMenu,
+    DropdownItem,
+    InputNumber,
+    Row,
+    Col,
+    Submenu,
+    MenuItemGroup,
+    Footer,
+    DatePicker,
+    Image,
+    Divider,
+    Card,
+    PageHeader,
+    Drawer
+} from 'element-ui'
+
+Vue.use(Drawer)
+Vue.use(Row)
+Vue.use(InputNumber)
+Vue.use(PageHeader)
+Vue.use(Card)
+Vue.use(Divider)
+Vue.use(Image)
+Vue.use(Radio)
+Vue.use(MenuItemGroup)
+Vue.use(Footer)
+Vue.use(DatePicker)
+Vue.use(Submenu)
+Vue.use(Col)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Carousel)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Input)
+Vue.use(Upload)
+Vue.use(CarouselItem)
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Rate)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Pagination)
+Vue.use(Tag)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Dialog)
+Vue.use(Tooltip)
+Vue.use(Popover)
+
+// 不能像上面全局定义，需要挂载到vue上,message自己取的名字
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
